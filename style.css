@@ -70,7 +70,6 @@ li {
 }
 .nav {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -91,7 +90,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: auto;
+    flex: 1;
 
 }
 .mug {
@@ -103,6 +102,15 @@ body {
     padding: 20px;
     gap: 30px;
     border-radius: 10px;
+}
+button:hover {
+    background-color: gray;
+}
+li:hover {
+    font-size: larger;
+}
+.logo:hover {
+    transform: scale(2);
 }
 
 
